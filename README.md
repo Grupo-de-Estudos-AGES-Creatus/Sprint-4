@@ -110,6 +110,7 @@ Saída: Objeto { id: string, name: string, request_level: number } com status 20
 ✅ **Bloquear Sala e Desbloquear Sala**
 Rota: `PATCH /room/{id}`
 Saída: 200 OK (sucesso) ou 404 Not Found (sala não existe).
+Somente usuário nível 5 pode fazer esta rota
 
 ---
 
