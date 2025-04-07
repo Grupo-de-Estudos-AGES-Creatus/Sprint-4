@@ -22,7 +22,8 @@ Implementar um sistema de gerenciamento de usuários com autenticação baseada 
 - `email`: string (único, válido)  
 - `password`: string (armazenada com hash e salt)  
 - `level`: número inteiro entre 1 e 5  
-- `createdAt`: timestamps automáticos  
+- `createdAt`: timestamps automáticos 
+- `deletedAt`: timestamps automáticos 
 
 ## Modelo de Sala (Room)
 - `id`: UUID ou Int
@@ -56,6 +57,7 @@ Implementar um sistema de gerenciamento de usuários com autenticação baseada 
 - Nível 5 podem atualizar qualquer usuário e seus níveis de acesso
 
 ✅ **Deletar Usuário**  
+(Faça uma deleção Lógica)
 - Rota: `DELETE /users/:id`  
 - Acesso: somente usuários com nível 4 ou 5
 
