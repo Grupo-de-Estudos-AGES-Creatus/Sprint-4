@@ -1,5 +1,5 @@
 
-# 🚀 Sprint 4 – SafeCo™️™
+# 🚀 Sprint 4 – SafeCo™
 
 ![Oi](https://abracaocapeta.files.wordpress.com/2012/07/half-life-half-life-663708_1024_768.jpg)
 
