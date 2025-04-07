@@ -84,25 +84,26 @@ Implementar um sistema de gerenciamento de usuários com autenticação baseada 
 ---
 
 ### 4. CRUD de Salas
-- **Criação da Sala**
+
+✅ **Criação da Sala**
 - Rota: `POST /room`
 - Entrada: name e request_level
 - Saída: 200 OK
 
-- **Edição de Sala**
+✅ **Edição de Sala**
 - Rota: PUT `/room/{id}`
 - Entrada: name (opcional), request_level (opcional) - Lembre-se, somente nível 5 pode alterar a sala!
 - Saída: 200 OK (sucesso) ou 404 Not Found (sala não existe)
 
-**Listar Todas as Salas**
+✅ **Listar Todas as Salas**
 - Rota: GET /rooms
 - Saída: Lista de objetos { id: string, name: string, request_level: number } com status 200 OK.
 
-**Buscar Sala por ID**
+✅ **Buscar Sala por ID**
 Rota: `GET /room/{id}`
 Saída: Objeto { id: string, name: string, request_level: number } com status 200 OK ou 404 Not Found.
 
-**Bloquear Sala e Desbloquear Sala**
+✅ **Bloquear Sala e Desbloquear Sala**
 Rota: `PATCH /room/{id}`
 Saída: 200 OK (sucesso) ou 404 Not Found (sala não existe).
 
