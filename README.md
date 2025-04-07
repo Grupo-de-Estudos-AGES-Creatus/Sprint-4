@@ -1,5 +1,7 @@
 # Sprint 4 – Gestão de Usuários com Autenticação e Relatórios
 
+![Oi](https://abracaocapeta.files.wordpress.com/2012/07/half-life-half-life-663708_1024_768.jpg)
+
 ## Tecnologias
 - TypeScript  
 - NestJS  
