@@ -157,8 +157,19 @@ Saída: 200 OK (sucesso) ou 404 Not Found (sala não existe).
     (Isso não é uma rota e sim um serivço dentro da sua aplicação - Dica: Faça uma tabela nova no banco de dados para registrar)
 
   ### 6. Crachá
-  
-  **
+
+✅ **Gerar Crachá do Usuário**
+- Rota: `GET /badge/:userId`
+- Acesso: autenticado
+- Saída: PDF com as informações do usuário:
+  - Nome
+  - Email
+  - Nível de acesso
+  - Data de criação
+  - Foto (Opcional, caso use, recomendamos BASE64)
+- Estilo simples, pode usar `pdfkit` ou `puppeteer`
+- Pode conter QR Code com o ID do usuário (opcional)
+
 
 ## Backlog Técnico
 
