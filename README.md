@@ -30,12 +30,6 @@ Implementar um sistema de gerenciamento de usuários com autenticação baseada 
 
 ---
 
-# DESAFIOS EXTRAS
-
-- Caso o usuário logado tente entrar numa sala que ele nao tenha autorização, mande um email para 
-todos os usuários níveis 5, de quando e qual sala o usuário tentou entrar.
-Dica, não use seu email para testar, use o https://www.fakemail.net/
-
 ## Funcionalidades Recomendadas/Mínimas
 
 ### 1. CRUD de Usuários
@@ -154,7 +148,7 @@ Saída: 200 OK (sucesso) ou 404 Not Found (sala não existe).
   - Erro: motivo da recusa (ex: "Nível insuficiente", "Sala inexistente")
 
     Serviço Opcional - Fazer um Log de acessos aquela sala todas as vezes que alguem tentar acessar!
-    (Isso não é uma rota e sim um serivço dentro da sua aplicação - Dica: Faça uma tabela nova no banco de dados para registrar)
+    (Isso não é uma rota e sim um serivço dentro da sua aplicação - Dica: Faça uma tabela nova no banco de dados para registrar esses acessos)
 
   ### 6. Crachá
 
@@ -169,6 +163,14 @@ Saída: 200 OK (sucesso) ou 404 Not Found (sala não existe).
   - Foto (Opcional, caso use, recomendamos BASE64)
 - Estilo simples, pode usar `pdfkit` ou `puppeteer`
 - Pode conter QR Code com o ID do usuário (opcional)
+
+---
+
+# DESAFIOS EXTRAS
+
+- Caso o usuário logado tente entrar numa sala que ele nao tenha autorização, mande um email para 
+todos os usuários níveis 5, de quando e qual sala o usuário tentou entrar.
+Dica, não use seu email para testar, use o https://www.fakemail.net/
 
 
 ## Backlog Técnico
