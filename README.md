@@ -159,7 +159,7 @@ Somente usuário nível 5 pode fazer esta rota
   ### 6. Crachá
 
 ✅ **Gerar Crachá do Usuário**
-- Rota: `POSG /badge/:userId`
+- Rota: `POST /badge/:userId`
 - Acesso: autenticado
 - Saída: PDF com as informações do usuário:
   - Nome
